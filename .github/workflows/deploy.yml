@@ -19,7 +19,6 @@ jobs:
       pull-requests: write
       contents: read
       packages: write
-      attestations: write
       id-token: write
     env:
       HOST: ${{ secrets.HOST }}
